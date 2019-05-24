@@ -73,6 +73,18 @@ text-align: left;
   width: 200px;
   display: flex;
   justify-content: space-around;
+  * {
+    display: inline-block;
+    padding: 0 10px;
+    cursor: pointer;
+    border: 1px solid rgba(175, 47, 47, 0);
+    &.actived{
+      border-color: rgba(175, 47, 47, 0.4);
+      border-radius: 5px;
+    }
+
+  }
+
 } 
 </style>
 
