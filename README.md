@@ -1,6 +1,12 @@
 # vue-todolist
 
 > A Vue.js project
+```
+cnp install vue-cli -g   
+vue init webpack todolist
+npm install
+npm run dev
+```
 
 ## Build Setup
 
